@@ -1,0 +1,45 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "unirate/currency-converter",
+	"title": "UniRate Currency Converter",
+	"category": "widgets",
+	"icon": "money-alt",
+	"description": "Display live exchange rates and currency conversion. API key stays server-side.",
+	"keywords": [ "currency", "exchange rate", "forex", "convert", "unirate" ],
+	"version": "0.1.0",
+	"textdomain": "unirate-currency-converter",
+	"attributes": {
+		"from": {
+			"type": "string",
+			"default": "USD"
+		},
+		"to": {
+			"type": "string",
+			"default": "EUR"
+		},
+		"amount": {
+			"type": "number",
+			"default": 1
+		},
+		"displayStyle": {
+			"type": "string",
+			"default": "widget",
+			"enum": [ "widget", "rate", "convert" ]
+		}
+	},
+	"editorScript": "file:./index.js",
+	"style": "file:./style.css",
+	"editorStyle": "file:./editor.css",
+	"supports": {
+		"html": false,
+		"color": {
+			"background": true,
+			"text": true
+		},
+		"spacing": {
+			"margin": true,
+			"padding": true
+		}
+	}
+}

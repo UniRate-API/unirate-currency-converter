@@ -1,0 +1,6 @@
+/* UniRate Currency Converter — block frontend styles */
+.wp-block-unirate-currency-converter {
+	display: block;
+}
+
+/* Inherit widget styles from the shared sheet loaded via shortcode */

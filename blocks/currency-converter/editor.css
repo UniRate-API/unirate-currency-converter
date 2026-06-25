@@ -1,0 +1,28 @@
+/* UniRate Currency Converter — block editor styles */
+.unirate-block-editor-preview {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 6px;
+	padding: 24px 16px;
+	background: #f8f9fa;
+	border: 1px dashed #c3c4c7;
+	border-radius: 4px;
+	text-align: center;
+	color: #3c434a;
+}
+
+.unirate-block-editor-preview__icon {
+	font-size: 2em;
+	line-height: 1;
+}
+
+.unirate-block-editor-preview__pair {
+	font-size: 1.1em;
+	font-weight: 600;
+}
+
+.unirate-block-editor-preview__hint {
+	font-size: 0.85em;
+	color: #787c82;
+}
